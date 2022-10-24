@@ -9,7 +9,7 @@ $email = mysqli_escape_string($connect, $_POST['email']);
 $idade = mysqli_escape_string($connect, $_POST['idade']);
 $id = mysqli_escape_string($connect, $_POST['IdUsuario']);
 
-$sql = "UPDATE clientes SET 'nome = $nome', 'sobrenome = $sobrenome', 'email = $email', 'idade= $idade' WHERE id = '$id' ";
+$sql = "UPDATE clientes SET nome = '$nome', sobrenome = '$sobrenome', email = '$email', idade= '$idade' WHERE IdUsuario = '$id' ";
 
     if(mysqli_query($connect, $sql)):
         $_SESSION['mensagem'] = "Aualizado com sucesso!";
