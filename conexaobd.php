@@ -1,11 +1,11 @@
 <?php
 
-$servername= "localhost";
+$servername= "127.0.0.1";
 $username= "root";
-$password= "123456789";
-$db_name= "CRUD";
+$password= "Vacapreta123!@#";
+$db_name= "crud";
 
-$connect= mysqli_connect('$servername', '$username', '$password' , '$db_name');
+$connect= mysqli_connect($servername, $username, $password , $db_name);
 mysqli_set_charset($connect, "utf-8");
 
 if(mysqli_connect_error()):
