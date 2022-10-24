@@ -13,16 +13,16 @@ include 'header.php';
                 <label for="nome">Nome</label>
             </div>
             <div class= "input-field col s12">
-                <input type="text" name="nome" id="nome">
-                <label for="nome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+                <label for="sobrenome">Sobrenome</label>
             </div>
             <div class= "input-field col s12">
-                <input type="text" name="nome" id="nome">
-                <label for="nome">Email</label>
+                <input type="text" name="email" id="email">
+                <label for="email">Email</label>
             </div>
             <div class= "input-field col s12">
-                <input type="text" name="nome" id="nome">
-                <label for="nome">Idade</label>
+                <input type="text" name="idade" id="idade">
+                <label for="idade">Idade</label>
             </div>
             <button type="submit" name="btn-cadastrar" class="btn grey"> Cadastrar</button>
             <a href="index.php" type="submit" class="btn green"> Lista de Clientes</a>
